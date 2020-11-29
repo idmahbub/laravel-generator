@@ -1,7 +1,7 @@
 {
-    "name": "infyomlabs/laravel-generator",
+    "name": "idmahbub/laravel-generator",
     "type": "library",
-    "description": "InfyOm Laravel Generator",
+    "description": "Laravel Generator",
     "keywords": [
         "laravel",
         "api",
