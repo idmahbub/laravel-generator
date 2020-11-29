@@ -11,7 +11,6 @@ class BaseGenerator
         if (file_exists($path.$fileName)) {
             return FileUtil::deleteFile($path, $fileName);
         }
-
         return false;
     }
 }
