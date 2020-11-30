@@ -17,10 +17,14 @@
         "swagger"
     ],
     "license": "MIT",
+    "homepage": "https://github.com/idmahbub/laravel-generator.git",
+    "license": "MIT",
+    "type": "library",
     "authors": [
         {
-            "name": "Mitul Golakiya",
-            "email": "me@mitul.me"
+            "name": "idmahbub",
+            "email": "bubyc58@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -49,7 +53,10 @@
         "laravel": {
             "providers": [
                 "\\InfyOm\\Generator\\InfyOmGeneratorServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "laravel-generator": "Idmahbub\\OperatorIndonesia\\OperatorIndonesiaFacade"
+            }
         }
     }    
 }
