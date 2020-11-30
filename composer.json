@@ -58,5 +58,6 @@
                 "laravel-generator": "Idmahbub\\OperatorIndonesia\\OperatorIndonesiaFacade"
             }
         }
-    }    
+    },
+    "minimum-stability": "dev"
 }
