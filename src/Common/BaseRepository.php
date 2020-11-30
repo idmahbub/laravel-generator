@@ -15,7 +15,6 @@ abstract class BaseRepository extends \Prettus\Repository\Eloquent\BaseRepositor
             return;
         }
     }
-
     public function create(array $attributes)
     {
         // Have to skip presenter to get a model not some data
